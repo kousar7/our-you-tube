@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+#bg{
+    background-image: url(./bg.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+}             
+h1{
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 190px;
+font-weight: 100;
+font-family: buttermilk;
+
+transform: translate(-50%,-50%);  
+color: #ffff;
+mix-blend-mode: difference;
+
+
+}     
